@@ -9,13 +9,13 @@ match user_input:
         result = num1 - num2
         print(result)
     case "3":
-        result = num1 * num3
+        result = num1 * num2
         print(result)
     case "4":
         if (num2 != 0):
             result = num1 / num2
             print(result)
         else: 
-            print("Your second number is 0: ")
+            print("Your second number cant be 0: ")
     case "5": 
         print(" You are seccesfuly exit: ")
